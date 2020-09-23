@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact name="connectFourZip">
+    <output-path>$PROJECT_DIR$/out/artifacts/connectFourZip</output-path>
+    <root id="root">
+      <element id="archive" name="connectFourProject.zip">
+        <element id="dir-copy" path="$PROJECT_DIR$" />
+      </element>
+    </root>
+  </artifact>
+</component>

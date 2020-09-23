@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact name="connectFour">
+    <output-path>$PROJECT_DIR$/out/artifacts/connectFour</output-path>
+    <root id="root">
+      <element id="archive" name="connectFour.jar" />
+      <element id="archive" name="ConnectFour.jar">
+        <element id="module-output" name="ConnectFour" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

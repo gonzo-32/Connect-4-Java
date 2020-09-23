@@ -1,0 +1,72 @@
+.title{
+    -fx-font-size: 50;
+    -fx-font-weight: 800;
+
+}
+
+.mainBack{
+    -fx-background-image: url("backgroundWood.jpg");
+    -fx-background-size: 550, 550;
+    -fx-background-position: center center;
+    -fx-background-repeat: repeat;
+
+}
+.background{
+    -fx-background-image: url("ConnectFourLogo.png");
+    -fx-background-size: 250, 250;
+    -fx-background-position: center center;
+    -fx-background-repeat: no-repeat;
+}
+
+.buttons{
+    -fx-background-color: linear-gradient(#070E14 0%, #FF0000 0%, #070E14  100%);
+    -fx-background-radius: 50%;
+    -fx-border-color: black;
+    -fx-border-width: 10;
+    -fx-border-radius: 55%;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 16px;
+    -fx-padding: 20 20 20 20;
+
+}
+
+.playerOneWin{
+    -fx-font-size: 50;
+    -fx-font-weight: 800;
+    -fx-fill: #a30911;
+    -fx-stroke: black;
+    -fx-stroke-width: 2;
+
+}
+
+.playerTwoWin{
+    -fx-font-size: 50;
+    -fx-font-weight: 800;
+    -fx-fill: #034999;
+    -fx-stroke: black;
+    -fx-stroke-width: 2;
+
+}
+
+.buttons:hover{
+     -fx-background-color: linear-gradient(#FF0000 0%, #070E14  0%, #FF0000  100%);
+     -fx-text-fill: black;
+}
+
+.exitButton{
+     -fx-background-color: linear-gradient(#FF0000 0%, #070E14 0%, #FF0000  100%);
+     -fx-background-radius: 50%;
+     -fx-border-color: black;
+     -fx-border-width: 10;
+     -fx-border-radius: 55%;
+     -fx-text-fill: white;
+     -fx-font-weight: bold;
+     -fx-font-size: 16px;
+     -fx-padding: 20 20 20 20;
+}
+
+.exitButton:hover{
+     -fx-background-color: linear-gradient(#070E14 0%, #FF0000  0%, #070E14  100%);
+     -fx-text-fill: black;
+}
